@@ -1,0 +1,16 @@
+{
+  "name": "@sample-mono/tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sample-mono/core": "1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "1.6.0"
+  }
+}

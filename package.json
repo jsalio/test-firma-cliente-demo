@@ -1,0 +1,19 @@
+{
+  "name": "sample-mono",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": ["**"]
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build":"yarn workspace @sample-mono/utils build && yarn workspace @sample-mono/core build && yarn workspace @sample-mono/example build",
+    "run:app": "node packages/example/dist/index.js",
+    "test": "yarn workspace @sample-mono/tests test"
+  }
+}
