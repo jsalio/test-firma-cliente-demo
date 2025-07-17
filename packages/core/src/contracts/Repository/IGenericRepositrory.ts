@@ -1,4 +1,4 @@
-import { IResponse } from "./IResponse";
+import { IResponse } from "../IResponse";
 
 /**
  * Base repository interface defining common CRUD operations
